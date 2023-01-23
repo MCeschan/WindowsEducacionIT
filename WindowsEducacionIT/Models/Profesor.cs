@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace WindowsEducacionIT.Models
 {
+    [Table("Profesor")]
     public class Profesor
     {
         [Key]

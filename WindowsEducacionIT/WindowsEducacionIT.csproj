@@ -67,6 +67,10 @@
     <Compile Include="Migrations\202301231230140_initial.designer.cs">
       <DependentUpon>202301231230140_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301231244010_cambiosTablas.cs" />
+    <Compile Include="Migrations\202301231244010_cambiosTablas.designer.cs">
+      <DependentUpon>202301231244010_cambiosTablas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Carrera.cs" />
     <Compile Include="Models\Curso.cs" />
@@ -84,6 +88,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Migrations\202301231230140_initial.resx">
       <DependentUpon>202301231230140_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301231244010_cambiosTablas.resx">
+      <DependentUpon>202301231244010_cambiosTablas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
